@@ -24,7 +24,7 @@ jobs:
     
     deploy:
       needs: test-build
-      runs-n: ubuntu-latest
+      runs-on: ubuntu-latest
       
       strategy:
         matrix:
